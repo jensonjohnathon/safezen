@@ -1,0 +1,56 @@
+#Bottum {
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  row-gap: 0px;
+}
+#TitleBottum {
+  align-self: stretch;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 25px;
+  background-color: black;
+  color: rgb(220, 220, 220);
+  font-weight: 300;
+  padding-top: 7px;
+  padding-bottom: 15px;
+}
+
+#BottumList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-position: inside;
+  margin-top: 0%;
+  margin-right: 10%;
+  margin-left: 10%;
+  top: 0px;
+  border: 2px solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+li {
+  align-self: stretch;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ListLeft {
+  text-align: left;
+}
+
+.ListCent {
+  text-align: center;
+  text-indent: -10%;
+}
+
+.ListRight {
+  text-align: right;
+}
